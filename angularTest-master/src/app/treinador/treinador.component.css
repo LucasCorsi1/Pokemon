@@ -1,0 +1,94 @@
+h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.treinadores {
+  margin: 0 0 2em 0;
+  list-style-type: circle;
+  padding: 0;
+  width: 35em;
+  background: #84faf4;
+  font-weight: bold;
+  border: 0.5px solid rgb(3, 50, 58);
+}
+
+li {
+  font: 200 18px/1.5 Helvetica, Verdana, sans-serif;
+  border: 1px solid rgb(3, 50, 58);
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  display: block;
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li:last-child {
+  border: 1px solid rgb(3, 50, 58);
+}
+
+li:hover {
+  cursor: pointer;
+  font-size: 20px;
+  background: #08a59d;
+}
+
+/* ul:hover {
+  font-size: 25px;
+  background: #84faf4;
+} */
+
+.treinadores .badgepoke {
+  font-weight: bold;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #20dfc5;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+label {
+  background-color: lightseagreen;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input {
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+
